@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.meta.movement": "https://github.com/oculus-samples/Unity-Movement.git#v71.0.0",
     "com.meta.xr.mrutilitykit": "file:E:/com.meta.xr.mrutilitykit-69.0.0.tgz",
     "com.meta.xr.sdk.audio": "file:E:/com.meta.xr.sdk.audio-69.0.0.tgz",
     "com.meta.xr.sdk.audio.samples": "file:E:/com.meta.xr.sdk.audio.samples-57.0.0-preview.tgz",
