@@ -3885,36 +3885,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 355578349}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 355578349}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11843,36 +11819,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1041992117}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1041992117}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12085,19 +12037,7 @@ MonoBehaviour:
   _selector: {fileID: 1044788224}
   _whenSelected:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _whenUnselected:
     m_PersistentCalls:
       m_Calls: []
@@ -12384,6 +12324,87 @@ MonoBehaviour:
   onGestureReleasedEarly:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &1062696751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2483171112097693236}
+    m_Modifications:
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442339640571472327, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_Name
+      value: ArmatureSkinningUpdateRetarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442339640571472327, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+--- !u!4 &1062696752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3817605947884828321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+  m_PrefabInstance: {fileID: 1062696751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1062696753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2494227819838822627, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+  m_PrefabInstance: {fileID: 1062696751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1062696754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3796135998893025026, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+  m_PrefabInstance: {fileID: 1062696751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1062696755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1235701047022314321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+  m_PrefabInstance: {fileID: 1062696751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1093945979
 GameObject:
   m_ObjectHideFlags: 0
@@ -12679,7 +12700,7 @@ MonoBehaviour:
   _fullBodySectionsToAlign: 0400000006000000050000000700000008000000090000000a0000000b00000000000000010000000200000003000000
   _bodySectionsToAlign: 0400000006000000050000000700000008000000090000000a0000000b000000
   _fullBodySectionToPosition: 0400000006000000050000000700000008000000090000000a0000000b00000000000000010000000200000003000000
-  _bodySectionToPosition: 04000000060000000500000007000000080000000a0000000b000000
+  _bodySectionToPosition: 0400000006000000050000000700000008000000090000000a0000000b000000
   _updateType: 1
   _applyAnimationConstraintsToCorrectedPositions: 1
   _enableTrackingByProxy: 1
@@ -13041,36 +13062,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1163264226}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1163264226}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14130,36 +14127,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1232214912}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1232214912}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15136,15 +15109,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325474001}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nicerAPI: {fileID: 1325474003}
-  shoulderJoint: {fileID: 615732126}
-  elbowJoint: {fileID: 134015835}
-  wristJoint: {fileID: 302197534}
+  shoulderJoint: {fileID: 1062696755}
+  elbowJoint: {fileID: 1062696754}
+  wristJoint: {fileID: 1062696753}
   handJoint: {fileID: 302197534}
   gender: Female
   fatigueLevel: 0
@@ -15184,20 +15157,20 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325474001}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nicerAPI: {fileID: 0}
-  shoulderJoint: {fileID: 0}
-  elbowJoint: {fileID: 0}
-  wristJoint: {fileID: 0}
-  handJoint: {fileID: 0}
-  gender: Male
+  nicerAPI: {fileID: 1325474003}
+  shoulderJoint: {fileID: 615732126}
+  elbowJoint: {fileID: 134015835}
+  wristJoint: {fileID: 302197534}
+  handJoint: {fileID: 302197534}
+  gender: Female
   fatigueLevel: 0
   enduranceTime: 0
-  logFileName: nicer_log.csv
+  logFileName: nicer_log11.csv
 --- !u!1 &1357006167
 GameObject:
   m_ObjectHideFlags: 0
@@ -15722,36 +15695,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1384473212}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1384473212}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19684,18 +19633,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1620437668}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
@@ -21099,36 +21036,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1765249523}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1765249523}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21964,36 +21877,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1818132647}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: T3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: clean_text
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1818132647}
-        m_TargetAssemblyTypeName: SyncUIWithVelocity, Assembly-CSharp
-        m_MethodName: notT3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26427,6 +26316,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2438560284076026643, guid: 3a4375d5a31401e47ac4555a2eacb587, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2463584291029784406, guid: 3a4375d5a31401e47ac4555a2eacb587, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -26565,11 +26458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3070418124068778409, guid: 3a4375d5a31401e47ac4555a2eacb587, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3070418124068778409, guid: 3a4375d5a31401e47ac4555a2eacb587, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3070418124068778409, guid: 3a4375d5a31401e47ac4555a2eacb587, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42354,6 +42247,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1062696752}
   - {fileID: 2483171112097752950}
   - {fileID: 6598215813218972763}
   - {fileID: 1113113145}
@@ -42653,7 +42547,7 @@ MonoBehaviour:
   shouldBoundaryVisibilityBeSuppressed: 0
   requestBodyTrackingPermissionOnStartup: 1
   requestFaceTrackingPermissionOnStartup: 0
-  requestEyeTrackingPermissionOnStartup: 0
+  requestEyeTrackingPermissionOnStartup: 1
   requestScenePermissionOnStartup: 1
   requestRecordAudioPermissionOnStartup: 0
   _localDimming: 1

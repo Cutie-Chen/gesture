@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: "Assets/Samples/Meta XR Interaction \u200BSDK/69.0.1/Example Scenes/PoseExamples.unity"
     guid: 4fe358b21fe17764db89a9ab9f202327
+  - enabled: 0
+    path: Assets/Samples/Meta Movement/71.0.0/Body Tracking Samples/Scenes/MovementRetargeting.unity
+    guid: fc2df0dac4e954244b6cd75ecbed5530
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b9ff1acdd249fef4682a70b2905953c4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 13748f7a7ca89f04e880aabafb32228b, type: 2}

@@ -8,19 +8,22 @@ TagManager:
   - QDSUIToggleBorderlessButton
   - select
   - unselect
+  - QDSUIIcon
+  - QDSUISecondaryButton
+  - QDSUISharedThemeColor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - HiddenMesh
   - Water
   - UI
   - taga
   - 
   - 
   - 
-  - 
-  - 
+  - Character
+  - MirroredCharacter
   - 
   - 
   - 
