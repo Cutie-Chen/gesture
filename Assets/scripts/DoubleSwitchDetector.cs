@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 public class DoubleSwitchDetector : MonoBehaviour, IActiveState
 {
+    public bool T12=false;
     [SerializeField] private ActiveStateGroup _fistDetector;
     [SerializeField] private ActiveStateGroup _thumbOutDetector;
 
@@ -47,6 +48,7 @@ public class DoubleSwitchDetector : MonoBehaviour, IActiveState
         {
             window_open = false;
             t.text = "T12 关闭信息窗口";
+            GestureFunctionDisplay.WriteToLog("T12_InfoWindow_Close");
             ResetState();
             return;
         }
@@ -97,6 +99,7 @@ public class DoubleSwitchDetector : MonoBehaviour, IActiveState
                     {
                         window_open = true;
                         t.text = "T12 激活信息窗口";
+                        GestureFunctionDisplay.WriteToLog("T12_InfoWindow_Open");
                     }
 
                     ResetState();

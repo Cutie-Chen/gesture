@@ -91,6 +91,7 @@ namespace Oculus.Interaction.PoseDetection
                             windowOpen = !windowOpen;
                             
                             t.text = windowOpen ? "T10 激活病人片子序列" : "T10 关闭病人片子序列";
+                            GestureFunctionDisplay.WriteToLog("T10_PatientSequence_Activate/Deactivate");
                         }
                     }
                     break;

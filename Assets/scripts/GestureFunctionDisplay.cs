@@ -63,7 +63,7 @@ public class GestureFunctionDisplay : MonoBehaviour
     }
 
     // 内部方法，用于将条目写入日志文件
-    private void WriteToLog(string gestureNameForLog)
+    public static void WriteToLog(string gestureNameForLog)
     {
         if (!isLoggerInitialized)
         {
@@ -100,7 +100,7 @@ public class GestureFunctionDisplay : MonoBehaviour
     }
 
     // CSV转义辅助函数
-    private string EscapeCSVField(string field)
+    public static string EscapeCSVField(string field)
     {
         if (string.IsNullOrEmpty(field)) return "";
         if (field.Contains(",") || field.Contains("\"") || field.Contains("\n"))
@@ -213,13 +213,13 @@ public class GestureFunctionDisplay : MonoBehaviour
     }
     public void ActivateSequence()
     {
-        displayText.text = "T10 激活病人片子序列";
+        //displayText.text = "T10 激活病人片子序列";
         WriteToLog("T10_PatientSequence_Activate");
     }
 
     public void DeactivateSequence()
     {
-        displayText.text = "T10 关闭病人片子序列";
+        //displayText.text = "T10 关闭病人片子序列";
         WriteToLog("T10_PatientSequence_Deactivate");
     }
 
@@ -231,13 +231,13 @@ public class GestureFunctionDisplay : MonoBehaviour
 
     public void OpenInfoWindow()
     {
-        displayText.text = "T12 激活信息窗口";
+        //displayText.text = "T12 激活信息窗口";
         WriteToLog("T12_InfoWindow_Open");
     }
 
     public void CloseInfoWindow()
     {
-        displayText.text = "T12 关闭信息窗口";
+        //displayText.text = "T12 关闭信息窗口";
         WriteToLog("T12_InfoWindow_Close");
     }
 

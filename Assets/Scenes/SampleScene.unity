@@ -1173,6 +1173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0ef730d845dc24b8e472422b059498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  T12: 0
   _fistDetector: {fileID: 813087294}
   _thumbOutDetector: {fileID: 785432851}
   _maxInterval: 2.38
@@ -1252,18 +1253,6 @@ MonoBehaviour:
   _whenSelected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415995489}
-        m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
-        m_MethodName: OpenInfoWindow
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: CloseInfoWindow
@@ -3069,7 +3058,7 @@ MonoBehaviour:
       _worldAxis: 3
       _handAxis: 2
       _headAxis: 0
-  _minVelocity: 0.5
+  _minVelocity: 1.04
   _thresholdWidth: 0.02
   _minTimeInState: 0.05
 --- !u!114 &278620683
@@ -3197,7 +3186,7 @@ MonoBehaviour:
   _hand: {fileID: 939354696074283005}
   _fingerFeatureStateProvider: {fileID: 2483171111744991699}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: cfcf04738f85b5745aa8d041e222e3bd, type: 2}
 --- !u!4 &278620689
 Transform:
   m_ObjectHideFlags: 0
@@ -7655,18 +7644,6 @@ MonoBehaviour:
   _whenSelected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 702113730}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: ActivateSequence
@@ -7681,19 +7658,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 702113730}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &602022304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9496,6 +9461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0ef730d845dc24b8e472422b059498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  T12: 0
   _fistDetector: {fileID: 813087294}
   _thumbOutDetector: {fileID: 785432851}
   _maxInterval: 2.38
@@ -12692,6 +12658,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1235701047022314321, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
   m_PrefabInstance: {fileID: 1062696751}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1062696756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7367197533957481950, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
+  m_PrefabInstance: {fileID: 1062696751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1093945979
 GameObject:
   m_ObjectHideFlags: 0
@@ -13624,7 +13595,7 @@ MonoBehaviour:
   _hand: {fileID: 3485521459850549572}
   _fingerFeatureStateProvider: {fileID: 2483171112607546205}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: cfcf04738f85b5745aa8d041e222e3bd, type: 2}
 --- !u!4 &1180993590
 Transform:
   m_ObjectHideFlags: 0
@@ -15396,7 +15367,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325474001}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
   m_Name: 
@@ -15405,7 +15376,7 @@ MonoBehaviour:
   shoulderJoint: {fileID: 1062696755}
   elbowJoint: {fileID: 1062696754}
   wristJoint: {fileID: 1062696753}
-  handJoint: {fileID: 1062696753}
+  handJoint: {fileID: 1062696756}
   gender: Female
   fatigueLevel: 0
   enduranceTime: 0
@@ -16340,7 +16311,7 @@ MonoBehaviour:
   _hand: {fileID: 939354696074283005}
   _fingerFeatureStateProvider: {fileID: 2483171111744991699}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: cfcf04738f85b5745aa8d041e222e3bd, type: 2}
 --- !u!4 &1405022466
 Transform:
   m_ObjectHideFlags: 0
@@ -18093,7 +18064,7 @@ MonoBehaviour:
   _hand: {fileID: 3485521459850549572}
   _fingerFeatureStateProvider: {fileID: 2483171112607546205}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: cfcf04738f85b5745aa8d041e222e3bd, type: 2}
 --- !u!4 &1510731970
 Transform:
   m_ObjectHideFlags: 0
@@ -18617,6 +18588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0ef730d845dc24b8e472422b059498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  T12: 0
   _fistDetector: {fileID: 1284579348}
   _thumbOutDetector: {fileID: 1218539907}
   _maxInterval: 2.35
@@ -18696,18 +18668,6 @@ MonoBehaviour:
   _whenSelected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415995489}
-        m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
-        m_MethodName: OpenInfoWindow
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: OpenInfoWindow
@@ -21430,7 +21390,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765249513}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da5b9d2cb599c63439ec87329e21eceb, type: 3}
   m_Name: 
@@ -21450,7 +21410,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765249513}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 107d1625502b5e54a9250a30689466b0, type: 3}
   m_Name: 
@@ -23005,18 +22965,6 @@ MonoBehaviour:
   _whenSelected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 702113730}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1415995489}
         m_TargetAssemblyTypeName: GestureFunctionDisplay, Assembly-CSharp
         m_MethodName: DeactivateSequence
@@ -23031,19 +22979,7 @@ MonoBehaviour:
         m_CallState: 2
   _whenUnselected:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 702113730}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1893131298
 MonoBehaviour:
   m_ObjectHideFlags: 0
