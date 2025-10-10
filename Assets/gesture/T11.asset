@@ -18,9 +18,9 @@ MonoBehaviour:
     - _mode: 0
       _feature: 0
       _state: 0
-    - _mode: 0
+    - _mode: 1
       _feature: 2
-      _state: 8
+      _state: 7
     - _mode: 0
       _feature: 1
       _state: 3

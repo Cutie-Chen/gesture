@@ -15,7 +15,7 @@ public class GestureFunctionDisplay : MonoBehaviour
     private static bool isLoggerInitialized = false; //确保初始化只执行一次
     private static readonly object fileWriteLock = new object(); // 用于同步文件写入操作，防止冲突
 
-    private const string LOG_FILE_NAME = "MyGestureActionsLog.csv"; // 您可以自定义日志文件名
+    private const string LOG_FILE_PREFIX = "MyGestureActionsLog"; // 日志文件名的前缀
     private const string CSV_FILE_HEADER = "Timestamp,SessionID,FrameCount,GestureName,Status";
 
     [SerializeField]
@@ -37,24 +37,21 @@ public class GestureFunctionDisplay : MonoBehaviour
                 return; // 如果已经初始化过了，就直接返回
             }
 
-            currentSessionID = Guid.NewGuid().ToString();
-            // Application.persistentDataPath 是在Quest等设备上安全可写的标准路径
-            currentLogFilePath = Path.Combine(Application.persistentDataPath, LOG_FILE_NAME);
-
             try
             {
-                if (!File.Exists(currentLogFilePath))
-                {
-                    // 文件不存在，创建并写入表头
-                    File.WriteAllText(currentLogFilePath, CSV_FILE_HEADER + Environment.NewLine);
-                    Debug.Log($"手势日志文件已创建: {currentLogFilePath}");
-                }
-                else
-                {
-                    // 文件已存在，可以追加一个新会话开始的标记（可选）
-                    File.AppendAllText(currentLogFilePath, $"# New Session Started: {currentSessionID}{Environment.NewLine}");
-                    Debug.Log($"手势日志将追加到现有文件: {currentLogFilePath}");
-                }
+                currentSessionID = Guid.NewGuid().ToString();
+
+                // 核心改动：生成一个基于当前时间戳的唯一文件名
+                string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                string dynamicFileName = $"{LOG_FILE_PREFIX}_{timestamp}.csv";
+
+                // Application.persistentDataPath 是在Quest等设备上安全可写的标准路径
+                currentLogFilePath = Path.Combine(Application.persistentDataPath, dynamicFileName);
+
+                // 由于每个会话都是一个新文件，我们直接创建它并写入CSV表头即可
+                File.WriteAllText(currentLogFilePath, CSV_FILE_HEADER + Environment.NewLine);
+                Debug.Log($"新的手势日志文件已创建: {currentLogFilePath}");
+
                 isLoggerInitialized = true;
             }
             catch (Exception e)
@@ -136,10 +133,11 @@ public class GestureFunctionDisplay : MonoBehaviour
     }
     public void Pan()
     {
-        if (!T5 && !T9) {
+        //if (!T5 && !T9)
+        //{
             displayText.text = "T3 平移（上下左右）";
             WriteToLog("T3_Pan");
-        }
+        //}
     }
 
     public void Rotate()
