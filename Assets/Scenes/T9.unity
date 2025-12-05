@@ -62088,18 +62088,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: nicer (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3881823277548643382, guid: 45e3e0f7f3710da44bcd4ad52d07ff76, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45e3e0f7f3710da44bcd4ad52d07ff76, type: 3}
 --- !u!114 &3788555993941445182 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3881823277548643382, guid: 45e3e0f7f3710da44bcd4ad52d07ff76, type: 3}
+  m_CorrespondingSourceObject: {fileID: 82270565277436103, guid: 45e3e0f7f3710da44bcd4ad52d07ff76, type: 3}
   m_PrefabInstance: {fileID: 3788555993941445181}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
   m_Name: 

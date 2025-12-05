@@ -34591,18 +34591,19 @@ PrefabInstance:
       propertyPath: shoulderJoint
       value: 
       objectReference: {fileID: 1860759960}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 176885452615181262, guid: 2c90584feb8cd434e89769242df5811c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c90584feb8cd434e89769242df5811c, type: 3}
 --- !u!114 &1027659296882772113 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 176885452615181262, guid: 2c90584feb8cd434e89769242df5811c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7025805549087406592, guid: 2c90584feb8cd434e89769242df5811c, type: 3}
   m_PrefabInstance: {fileID: 1027659296882772112}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
   m_Name: 
