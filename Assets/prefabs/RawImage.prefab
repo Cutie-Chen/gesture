@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &576653866358977054
+--- !u!1 &3573870727746659645
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6617606272520311729}
-  - component: {fileID: 7892714148081822814}
-  - component: {fileID: 3318398140910594604}
+  - component: {fileID: 2116091780343910893}
+  - component: {fileID: 5289712474326378789}
+  - component: {fileID: 6300892282701409695}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -18,40 +18,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &6617606272520311729
+--- !u!224 &2116091780343910893
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576653866358977054}
+  m_GameObject: {fileID: 3573870727746659645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.751}
-  m_LocalScale: {x: 0.00038997698, y: 0.00038997698, z: 0.00038997698}
+  m_LocalScale: {x: 0.0003379933, y: 0.0003379933, z: 0.0003379933}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.449, y: 1.451}
+  m_AnchoredPosition: {x: 0.248, y: 1.131}
   m_SizeDelta: {x: 2048, y: 1024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &7892714148081822814
+--- !u!222 &5289712474326378789
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576653866358977054}
+  m_GameObject: {fileID: 3573870727746659645}
   m_CullTransparentMesh: 1
---- !u!114 &3318398140910594604
+--- !u!114 &6300892282701409695
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576653866358977054}
+  m_GameObject: {fileID: 3573870727746659645}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}

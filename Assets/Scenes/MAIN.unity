@@ -12061,7 +12061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7241302354363564167, guid: f5919696adaee8d4486feba592fbc854, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.016
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7433989986919384650, guid: f5919696adaee8d4486feba592fbc854, type: 3}
       propertyPath: _whenRelease.m_PersistentCalls.m_Calls.Array.size
