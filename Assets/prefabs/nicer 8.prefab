@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &844972840648605867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 520295070060745987}
+  - component: {fileID: 5311113506134208477}
+  - component: {fileID: 7077593773049043136}
+  - component: {fileID: 6642118023984988473}
+  m_Layer: 0
+  m_Name: nicer 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &520295070060745987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844972840648605867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5311113506134208477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844972840648605867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69db1d5f9c88f548a7621842443720b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7077593773049043136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844972840648605867}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nicerAPI: {fileID: 5311113506134208477}
+  shoulderJoint: {fileID: 0}
+  elbowJoint: {fileID: 0}
+  wristJoint: {fileID: 0}
+  handJoint: {fileID: 0}
+  countdownText: {fileID: 0}
+  startButton: {fileID: 0}
+  stopButton: {fileID: 0}
+  gestureID: T1_Zoom
+  mainMenuSceneName: MAIN
+  gender: Female
+--- !u!114 &6642118023984988473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844972840648605867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37cad0c19851da140a1584d3f7b51640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nicerAPI: {fileID: 5311113506134208477}
+  shoulderJoint: {fileID: 0}
+  elbowJoint: {fileID: 0}
+  wristJoint: {fileID: 0}
+  handJoint: {fileID: 0}
+  countdownText: {fileID: 0}
+  startButton: {fileID: 0}
+  stopButton: {fileID: 0}
+  gestureID: T10
+  mainMenuSceneName: MAIN
+  gender: Male
