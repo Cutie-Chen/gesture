@@ -3052,13 +3052,13 @@ MonoBehaviour:
   _featureConfigs:
     _values:
     - _mode: 0
-      _feature: 0
+      _feature: 6
       _state: 
       _relativeTo: 1
       _worldAxis: 3
       _handAxis: 2
       _headAxis: 0
-  _minVelocity: 0.5
+  _minVelocity: 0.41
   _thresholdWidth: 0.02
   _minTimeInState: 0.05
 --- !u!114 &278620683
@@ -3186,7 +3186,7 @@ MonoBehaviour:
   _hand: {fileID: 939354696074283005}
   _fingerFeatureStateProvider: {fileID: 2483171111744991699}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: 456f224abec37a44fa941bf12910cb51, type: 2}
 --- !u!4 &278620689
 Transform:
   m_ObjectHideFlags: 0
@@ -13924,13 +13924,13 @@ MonoBehaviour:
   _featureConfigs:
     _values:
     - _mode: 0
-      _feature: 0
+      _feature: 6
       _state: 
       _relativeTo: 1
       _worldAxis: 2
       _handAxis: 0
       _headAxis: 0
-  _minVelocity: 0.5
+  _minVelocity: 0.41
   _thresholdWidth: 0.02
   _minTimeInState: 0.05
 --- !u!114 &1180993585
@@ -14045,7 +14045,7 @@ MonoBehaviour:
   _hand: {fileID: 3485521459850549572}
   _fingerFeatureStateProvider: {fileID: 2483171112607546205}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: 456f224abec37a44fa941bf12910cb51, type: 2}
 --- !u!4 &1180993590
 Transform:
   m_ObjectHideFlags: 0
@@ -17209,13 +17209,13 @@ MonoBehaviour:
   _featureConfigs:
     _values:
     - _mode: 0
-      _feature: 0
+      _feature: 6
       _state: 
       _relativeTo: 1
       _worldAxis: 2
       _handAxis: 2
       _headAxis: 0
-  _minVelocity: 0.5
+  _minVelocity: 0.41
   _thresholdWidth: 0.02
   _minTimeInState: 0.05
 --- !u!114 &1405022460
@@ -17343,7 +17343,7 @@ MonoBehaviour:
   _hand: {fileID: 939354696074283005}
   _fingerFeatureStateProvider: {fileID: 2483171111744991699}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: 456f224abec37a44fa941bf12910cb51, type: 2}
 --- !u!4 &1405022466
 Transform:
   m_ObjectHideFlags: 0
@@ -19080,8 +19080,8 @@ GameObject:
   - component: {fileID: 1510731967}
   - component: {fileID: 1510731966}
   - component: {fileID: 1510731965}
-  - component: {fileID: 1510731972}
   - component: {fileID: 1510731971}
+  - component: {fileID: 1510731972}
   - component: {fileID: 1510731973}
   m_Layer: 0
   m_Name: T2_gesture_L _down
@@ -19202,7 +19202,7 @@ MonoBehaviour:
   _hand: {fileID: 3485521459850549572}
   _fingerFeatureStateProvider: {fileID: 2483171112607546205}
   _shapes:
-  - {fileID: 11400000, guid: 451d656bb1a49874c88fd04962ccd00e, type: 2}
+  - {fileID: 11400000, guid: 456f224abec37a44fa941bf12910cb51, type: 2}
 --- !u!4 &1510731970
 Transform:
   m_ObjectHideFlags: 0
@@ -19249,13 +19249,13 @@ MonoBehaviour:
   _featureConfigs:
     _values:
     - _mode: 0
-      _feature: 0
+      _feature: 6
       _state: 
       _relativeTo: 1
       _worldAxis: 3
       _handAxis: 0
       _headAxis: 0
-  _minVelocity: 0.5
+  _minVelocity: 0.41
   _thresholdWidth: 0.02
   _minTimeInState: 0.05
 --- !u!114 &1510731973
