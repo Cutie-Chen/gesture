@@ -62665,6 +62665,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3630482654207503721, guid: bf1bd0329bfd4af4ea756f4cee63c647, type: 3}
+      propertyPath: gestureID
+      value: T6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630482654207503721, guid: bf1bd0329bfd4af4ea756f4cee63c647, type: 3}
       propertyPath: handJoint
       value: 
       objectReference: {fileID: 302197534}

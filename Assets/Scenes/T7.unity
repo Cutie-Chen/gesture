@@ -44550,6 +44550,10 @@ PrefabInstance:
       value: nicer
       objectReference: {fileID: 0}
     - target: {fileID: 1404483819656830421, guid: bd5ae359742598a4380c74660bf038d6, type: 3}
+      propertyPath: gestureID
+      value: T7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404483819656830421, guid: bd5ae359742598a4380c74660bf038d6, type: 3}
       propertyPath: handJoint
       value: 
       objectReference: {fileID: 302197534}

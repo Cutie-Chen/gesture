@@ -91,4 +91,4 @@ MonoBehaviour:
   stopButton: {fileID: 0}
   gestureID: T1
   mainMenuSceneName: MAIN
-  gender: Male
+  gender: Female
